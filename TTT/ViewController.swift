@@ -41,11 +41,11 @@ class ViewController: UIViewController {
     }
     @IBAction func tmonclick(_ sender: UIButton) {
         if(turn==0){
-            tl.backgroundColor=UIColor.green
+            tm.backgroundColor=UIColor.green
             a[0]=turn
             turn=1
         }else{
-            tl.backgroundColor=UIColor.red
+            tm.backgroundColor=UIColor.red
             a[0]=turn
             turn=0
         }
@@ -53,11 +53,11 @@ class ViewController: UIViewController {
     }
     @IBAction func tronclick(_ sender: UIButton) {
         if(turn==0){
-            tl.backgroundColor=UIColor.green
+            tr.backgroundColor=UIColor.green
             a[0]=turn
             turn=1
         }else{
-            tl.backgroundColor=UIColor.red
+            tr.backgroundColor=UIColor.red
             a[0]=turn
             turn=0
         }
@@ -65,11 +65,11 @@ class ViewController: UIViewController {
     }
     @IBAction func mlonclick(_ sender: UIButton) {
         if(turn==0){
-            tl.backgroundColor=UIColor.green
+            ml.backgroundColor=UIColor.green
             a[0]=turn
             turn=1
         }else{
-            tl.backgroundColor=UIColor.red
+            ml.backgroundColor=UIColor.red
             a[0]=turn
             turn=0
         }
@@ -77,11 +77,11 @@ class ViewController: UIViewController {
     }
     @IBAction func mmonclick(_ sender: UIButton) {
         if(turn==0){
-            tl.backgroundColor=UIColor.green
+            mm.backgroundColor=UIColor.green
             a[0]=turn
             turn=1
         }else{
-            tl.backgroundColor=UIColor.red
+            mm.backgroundColor=UIColor.red
             a[0]=turn
             turn=0
         }
@@ -89,11 +89,11 @@ class ViewController: UIViewController {
     }
     @IBAction func mronclick(_ sender: UIButton) {
         if(turn==0){
-            tl.backgroundColor=UIColor.green
+            mr.backgroundColor=UIColor.green
             a[0]=turn
             turn=1
         }else{
-            tl.backgroundColor=UIColor.red
+            mr.backgroundColor=UIColor.red
             a[0]=turn
             turn=0
         }
@@ -101,11 +101,11 @@ class ViewController: UIViewController {
     }
     @IBAction func blonclick(_ sender: UIButton) {
         if(turn==0){
-            tl.backgroundColor=UIColor.green
+            bl.backgroundColor=UIColor.green
             a[0]=turn
             turn=1
         }else{
-            tl.backgroundColor=UIColor.red
+            bl.backgroundColor=UIColor.red
             a[0]=turn
             turn=0
         }
@@ -113,11 +113,11 @@ class ViewController: UIViewController {
     }
     @IBAction func bmonclick(_ sender: UIButton) {
         if(turn==0){
-            tl.backgroundColor=UIColor.green
+            bm.backgroundColor=UIColor.green
             a[0]=turn
             turn=1
         }else{
-            tl.backgroundColor=UIColor.red
+            bm.backgroundColor=UIColor.red
             a[0]=turn
             turn=0
         }
@@ -125,11 +125,11 @@ class ViewController: UIViewController {
     }
     @IBAction func bronclick(_ sender: UIButton) {
         if(turn==0){
-            tl.backgroundColor=UIColor.green
+            br.backgroundColor=UIColor.green
             a[0]=turn
             turn=1
         }else{
-            tl.backgroundColor=UIColor.red
+            br.backgroundColor=UIColor.red
             a[0]=turn
             turn=0
         }
@@ -152,6 +152,16 @@ class ViewController: UIViewController {
         bl.isEnabled=true
         bm.isEnabled=true
         br.isEnabled=true
+        tl.backgroundColor=UIColor.systemGray
+        tm.backgroundColor=UIColor.systemGray
+        tr.backgroundColor=UIColor.systemGray
+        ml.backgroundColor=UIColor.systemGray
+        mm.backgroundColor=UIColor.systemGray
+        mr.backgroundColor=UIColor.systemGray
+        bl.backgroundColor=UIColor.systemGray
+        bm.backgroundColor=UIColor.systemGray
+        br.backgroundColor=UIColor.systemGray
+        
     }
     func check(){
         if(a[0]==a[1]&&a[0]==a[2]){winnn(wn: turn)}

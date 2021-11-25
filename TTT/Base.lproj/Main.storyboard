@@ -29,8 +29,8 @@
                                 </subviews>
                                 <color key="backgroundColor" name="AccentColor"/>
                             </stackView>
-                            <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uFp-2D-MwU">
-                                <rect key="frame" x="0.0" y="145" width="414" height="404"/>
+                            <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="equalCentering" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uFp-2D-MwU">
+                                <rect key="frame" x="0.0" y="166" width="414" height="404"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleAspectFit" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" insetsLayoutMarginsFromSafeArea="NO" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ltV-ft-gBw">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
@@ -40,10 +40,9 @@
                                                 <subviews>
                                                     <button autoresizesSubviews="NO" verifyAmbiguity="ignoreSizes" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rye-SS-gKq">
                                                         <rect key="frame" x="0.0" y="0.0" width="131.5" height="128"/>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <buttonConfiguration key="configuration" style="gray" cornerStyle="dynamic" buttonSize="large">
-                                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic" buttonSize="large"/>
                                                         <connections>
                                                             <action selector="tlonclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="osE-Uj-oni"/>
                                                         </connections>
@@ -61,10 +60,9 @@
                                                 <subviews>
                                                     <button autoresizesSubviews="NO" verifyAmbiguity="ignoreSizes" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5P-An-747">
                                                         <rect key="frame" x="0.0" y="0.0" width="131" height="128"/>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <buttonConfiguration key="configuration" style="gray" cornerStyle="dynamic" buttonSize="large">
-                                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic" buttonSize="large"/>
                                                         <connections>
                                                             <action selector="tmonclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yd5-gQ-ma6"/>
                                                         </connections>
@@ -82,10 +80,9 @@
                                                 <subviews>
                                                     <button autoresizesSubviews="NO" verifyAmbiguity="ignoreSizes" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x6c-jp-0Rj">
                                                         <rect key="frame" x="0.0" y="0.0" width="131.5" height="128"/>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <buttonConfiguration key="configuration" style="gray" cornerStyle="dynamic" buttonSize="large">
-                                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic" buttonSize="large"/>
                                                         <connections>
                                                             <action selector="tronclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="npc-i0-inc"/>
                                                         </connections>
@@ -108,10 +105,9 @@
                                                 <subviews>
                                                     <button autoresizesSubviews="NO" verifyAmbiguity="ignoreSizes" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iI3-5V-fIw">
                                                         <rect key="frame" x="0.0" y="0.0" width="131.5" height="128"/>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <buttonConfiguration key="configuration" style="gray" cornerStyle="dynamic" buttonSize="large">
-                                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic" buttonSize="large"/>
                                                         <connections>
                                                             <action selector="mlonclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZY7-Yp-CAE"/>
                                                         </connections>
@@ -129,10 +125,9 @@
                                                 <subviews>
                                                     <button autoresizesSubviews="NO" verifyAmbiguity="ignoreSizes" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tkh-Vv-Erb">
                                                         <rect key="frame" x="0.0" y="0.0" width="131" height="128"/>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <buttonConfiguration key="configuration" style="gray" cornerStyle="dynamic" buttonSize="large">
-                                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic" buttonSize="large"/>
                                                         <connections>
                                                             <action selector="mmonclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z5U-UP-ENH"/>
                                                         </connections>
@@ -150,10 +145,9 @@
                                                 <subviews>
                                                     <button autoresizesSubviews="NO" verifyAmbiguity="ignoreSizes" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fn3-rf-d8y">
                                                         <rect key="frame" x="0.0" y="0.0" width="131.5" height="128"/>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <buttonConfiguration key="configuration" style="gray" cornerStyle="dynamic" buttonSize="large">
-                                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic" buttonSize="large"/>
                                                         <connections>
                                                             <action selector="mronclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xvG-WF-otQ"/>
                                                         </connections>
@@ -176,10 +170,9 @@
                                                 <subviews>
                                                     <button autoresizesSubviews="NO" verifyAmbiguity="ignoreSizes" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ho7-gp-4c9">
                                                         <rect key="frame" x="0.0" y="0.0" width="131.5" height="128"/>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <buttonConfiguration key="configuration" style="gray" cornerStyle="dynamic" buttonSize="large">
-                                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic" buttonSize="large"/>
                                                         <connections>
                                                             <action selector="blonclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="apx-Zf-Gce"/>
                                                         </connections>
@@ -197,10 +190,9 @@
                                                 <subviews>
                                                     <button autoresizesSubviews="NO" verifyAmbiguity="ignoreSizes" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mtx-cu-RUL">
                                                         <rect key="frame" x="0.0" y="0.0" width="131" height="128"/>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <buttonConfiguration key="configuration" style="gray" cornerStyle="dynamic" buttonSize="large">
-                                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic" buttonSize="large"/>
                                                         <connections>
                                                             <action selector="bmonclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aqg-Ad-9vn"/>
                                                         </connections>
@@ -218,10 +210,9 @@
                                                 <subviews>
                                                     <button autoresizesSubviews="NO" verifyAmbiguity="ignoreSizes" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="fill" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPn-XA-WIY">
                                                         <rect key="frame" x="0.0" y="0.0" width="131.5" height="128"/>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <color key="tintColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <buttonConfiguration key="configuration" style="gray" cornerStyle="dynamic" buttonSize="large">
-                                                            <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
-                                                        </buttonConfiguration>
+                                                        <buttonConfiguration key="configuration" style="plain" cornerStyle="dynamic" buttonSize="large"/>
                                                         <connections>
                                                             <action selector="bronclick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="suB-92-A6T"/>
                                                         </connections>
@@ -243,7 +234,7 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="9bz-EY-Pqe">
-                                <rect key="frame" x="0.0" y="557" width="414" height="55"/>
+                                <rect key="frame" x="0.0" y="578" width="414" height="55"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xe9-yV-Ed5">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="55"/>
@@ -266,7 +257,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eKf-iq-ByW">
-                                <rect key="frame" x="1" y="628" width="412" height="82"/>
+                                <rect key="frame" x="1" y="649" width="412" height="82"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hy8-8D-Dwl">
                                         <rect key="frame" x="0.0" y="0.0" width="412" height="82"/>
@@ -298,7 +289,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bSS-y4-b80" secondAttribute="trailing" id="12l-o8-VTs"/>
                             <constraint firstItem="bSS-y4-b80" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="3fZ-Ys-sn6"/>
                             <constraint firstItem="bSS-y4-b80" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BFp-vY-Ik1"/>
-                            <constraint firstItem="uFp-2D-MwU" firstAttribute="top" secondItem="bSS-y4-b80" secondAttribute="bottom" constant="-1" id="Esd-As-wCL"/>
+                            <constraint firstItem="uFp-2D-MwU" firstAttribute="top" secondItem="bSS-y4-b80" secondAttribute="bottom" constant="8" symbolic="YES" id="Esd-As-wCL"/>
                             <constraint firstItem="Hy8-8D-Dwl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="1" id="G9w-gF-t0D"/>
                             <constraint firstItem="L13-d1-gBD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NAa-Ga-Kfc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Xe9-yV-Ed5" secondAttribute="trailing" id="NFp-G9-xLk"/>
