@@ -42,11 +42,11 @@ class ViewController: UIViewController {
     @IBAction func tmonclick(_ sender: UIButton) {
         if(turn==0){
             tm.backgroundColor=UIColor.green
-            a[0]=turn
+            a[1]=turn
             turn=1
         }else{
             tm.backgroundColor=UIColor.red
-            a[0]=turn
+            a[1]=turn
             turn=0
         }
         check()
@@ -54,11 +54,11 @@ class ViewController: UIViewController {
     @IBAction func tronclick(_ sender: UIButton) {
         if(turn==0){
             tr.backgroundColor=UIColor.green
-            a[0]=turn
+            a[2]=turn
             turn=1
         }else{
             tr.backgroundColor=UIColor.red
-            a[0]=turn
+            a[2]=turn
             turn=0
         }
         check()
@@ -66,11 +66,11 @@ class ViewController: UIViewController {
     @IBAction func mlonclick(_ sender: UIButton) {
         if(turn==0){
             ml.backgroundColor=UIColor.green
-            a[0]=turn
+            a[3]=turn
             turn=1
         }else{
             ml.backgroundColor=UIColor.red
-            a[0]=turn
+            a[3]=turn
             turn=0
         }
         check()
@@ -78,11 +78,11 @@ class ViewController: UIViewController {
     @IBAction func mmonclick(_ sender: UIButton) {
         if(turn==0){
             mm.backgroundColor=UIColor.green
-            a[0]=turn
+            a[4]=turn
             turn=1
         }else{
             mm.backgroundColor=UIColor.red
-            a[0]=turn
+            a[4]=turn
             turn=0
         }
         check()
@@ -90,11 +90,11 @@ class ViewController: UIViewController {
     @IBAction func mronclick(_ sender: UIButton) {
         if(turn==0){
             mr.backgroundColor=UIColor.green
-            a[0]=turn
+            a[5]=turn
             turn=1
         }else{
             mr.backgroundColor=UIColor.red
-            a[0]=turn
+            a[5]=turn
             turn=0
         }
         check()
@@ -102,11 +102,11 @@ class ViewController: UIViewController {
     @IBAction func blonclick(_ sender: UIButton) {
         if(turn==0){
             bl.backgroundColor=UIColor.green
-            a[0]=turn
+            a[6]=turn
             turn=1
         }else{
             bl.backgroundColor=UIColor.red
-            a[0]=turn
+            a[6]=turn
             turn=0
         }
         check()
@@ -114,11 +114,11 @@ class ViewController: UIViewController {
     @IBAction func bmonclick(_ sender: UIButton) {
         if(turn==0){
             bm.backgroundColor=UIColor.green
-            a[0]=turn
+            a[7]=turn
             turn=1
         }else{
             bm.backgroundColor=UIColor.red
-            a[0]=turn
+            a[7]=turn
             turn=0
         }
         check()
@@ -126,11 +126,11 @@ class ViewController: UIViewController {
     @IBAction func bronclick(_ sender: UIButton) {
         if(turn==0){
             br.backgroundColor=UIColor.green
-            a[0]=turn
+            a[8]=turn
             turn=1
         }else{
             br.backgroundColor=UIColor.red
-            a[0]=turn
+            a[8]=turn
             turn=0
         }
         check()
@@ -164,21 +164,21 @@ class ViewController: UIViewController {
         
     }
     func check(){
-        if(a[0]==a[1]&&a[0]==a[2]){winnn(wn: turn)}
-        if(a[3]==a[4]&&a[3]==a[5]){winnn(wn: turn)}
-        if(a[6]==a[7]&&a[6]==a[8]){winnn(wn: turn)}
-        if(a[0]==a[3]&&a[0]==a[6]){winnn(wn: turn)}
-        if(a[1]==a[4]&&a[1]==a[7]){winnn(wn: turn)}
-        if(a[2]==a[5]&&a[2]==a[8]){winnn(wn: turn)}
-        if(a[0]==a[4]&&a[0]==a[8]){winnn(wn: turn)}
-        if(a[2]==a[4]&&a[2]==a[6]){winnn(wn: turn)}
+        if(a[0]==a[1]&&a[0]==a[2]){winnn(wn: a[0])}
+        if(a[3]==a[4]&&a[3]==a[5]){winnn(wn: a[3])}
+        if(a[6]==a[7]&&a[6]==a[8]){winnn(wn: a[6])}
+        if(a[0]==a[3]&&a[0]==a[6]){winnn(wn: a[0])}
+        if(a[1]==a[4]&&a[1]==a[7]){winnn(wn: a[1])}
+        if(a[2]==a[5]&&a[2]==a[8]){winnn(wn: a[2])}
+        if(a[0]==a[4]&&a[0]==a[8]){winnn(wn: a[0])}
+        if(a[2]==a[4]&&a[2]==a[6]){winnn(wn: a[2])}
         
         
     }
     
     func winnn(wn:Int){
         if(wn==0){
-            win.text="Congratolations Player Green is the winner"
+            win.text="Player Green is the winner"
             win.isHidden=false
             tl.isEnabled=false
             tm.isEnabled=false
@@ -191,7 +191,7 @@ class ViewController: UIViewController {
             br.isEnabled=false
             
         }else{
-            win.text="Congratolations Player Red is the winner"
+            win.text="Player Red is the winner"
             win.isHidden=false
             tl.isEnabled=false
             tm.isEnabled=false
